@@ -1,0 +1,26 @@
+.filter__wrraper{
+    margin-top: 36px;
+    margin-bottom: 22px;
+}
+.show__all {
+    margin-left: 18px;
+}
+.show__sent, .show__unsent {
+    margin-left: 35px;
+}
+.delete__selected_recipients {
+    float: right;
+    margin-right: 30px;
+}
+.nav__item {
+    display: inline-block;
+    font-size: 14px;
+    color: #8A9AAB;
+    cursor: pointer;
+    padding-bottom: 7px;
+    border-bottom: 1px solid transparent;
+}
+.nav__item:hover {
+    color: #3A3E49;
+    border-bottom: 1px solid #009AD6;
+}

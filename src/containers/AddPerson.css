@@ -1,0 +1,59 @@
+.recipient_text {
+    font-family: "Open-Sans-Regular";
+    font-size: 18px;
+    color: #3A3E49;
+    margin-bottom: 25px;
+}
+.email__wrraper {
+    float: left;
+    margin-right: 20px;
+}
+.name__text, .email__text {
+    margin-bottom: 5px;
+    color: #3A3E49;
+}
+.name__wrraper {
+    float: left;
+}
+.input__wrraper {
+    overflow: hidden;
+}
+.add {
+    display: inline-block;
+    margin-left: 32px;
+    padding: 12px 25px;
+    border: none;
+    background-color: #009AD6;
+    border-radius: 19px;
+    color: #ffffff;
+    font-weight: normal;
+    transition: all ease-in-out .5s ;
+}
+.add:hover {
+    background-color: #ffffff;
+    color: #009AD6;
+    transition: all ease-in-out .5s ;
+}
+.name, .email {
+    margin-top: 5px;
+    border: none;
+    width: 214px;
+    height: 41px;
+    border-radius: 8px;
+    padding-left: 16px;
+}
+.name::placeholder, .email::placeholder {
+    color: #8A9AAB;
+}
+
+@media screen and (max-width: 863px) {
+    .add {
+        float: right;
+        display: block;
+        text-align: center;
+        width: 52px;
+        height: 52px;
+        padding: 0;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,20 @@
+@import"reset.css";
+@import"fonts.css";
+* {
+    font-family: "Open-Sans-Light";
+    font-size: 14px;
+}
+body {
+    background: #F1F6F9;
+}
+.main__wrraper {
+    margin-top: 44px;
+    margin-left: 126px;
+    margin-right: 139px;
+    margin-bottom: 44px;
+}
+@media screen and (max-width: 863px) {
+    .main__wrraper {
+       margin: 0;
+    }
+}
